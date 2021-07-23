@@ -54,7 +54,7 @@ function Footer() {
                 For EDUCATION solutions, TECHNOLOGY solutions & DIGITAL solutions allow us to help with our plethora of band-aids as per your needs and requirements.
             </p>
             <p className={styles.footer_text}>
-                <span>Digital Aided School's Mission</span>
+                <span>Digital Aided Schools Mission</span>
                 <strong>To Create</strong> a productive work culture in which our employees happily and whole-heartedly contribute to our goal of making the world a place where every individual thrives together with the usage of technology readily available.
                 <br />
                 <br />
