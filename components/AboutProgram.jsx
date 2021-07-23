@@ -10,7 +10,7 @@ function AboutProgram() {
             <h1 className={styles.main_heading}>About the Program</h1>
             <div className={styles.wrapper}>
                 <figure className={styles.image}>
-                    <Image src={about} objectFit="contain" placeholder="blur"/>
+                    <Image src={about} objectFit="contain" placeholder="blur" alt="" />
                 </figure>
                 <article className={styles.about}>
                     <p className={styles.desc}>

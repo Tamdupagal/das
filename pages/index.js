@@ -7,10 +7,15 @@ import Questions from '../components/Questions'
 import Tracks from '../components/Tracks'
 import WhoCanApply from '../components/WhoCanApply'
 import styles from '../styles/Home.module.scss'
+import Head from 'next/head'
 
 
 export default function Home() {
   return (
+    <>
+      <Head>
+          <title>Digital Aided School | A modern way to learn</title>
+      </Head>
     <main className={styles.container}>
       <Banner />
       <Courses />
@@ -19,6 +24,7 @@ export default function Home() {
       <Learning />
       <WhoCanApply />
       <Questions/>
-    </main>
+      </main>
+    </>
   )
 }

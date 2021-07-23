@@ -20,7 +20,7 @@ function Banner() {
                             <br/>
                             Start your digital Marketing Journey at <strong>Rs 3,198</strong> per month
                         </p>
-                        <Link href=""><a className={styles.banner_btn}>Study Now! Pay Later</a></Link>
+                        <Link href="#"><a className={styles.banner_btn}>Study Now! Pay Later</a></Link>
                     </div>
                     <div className={styles.content_image}>
                         <Image src={banner_image} alt="banner_img" objectFit="contain"/>
@@ -37,7 +37,7 @@ function Banner() {
                             <br/>
                             Start your digital Marketing Journey at <strong>Rs 3,198</strong> per month
                         </p>
-                        <Link href=""><a className={styles.banner_btn}>Study Now! Pay Later</a></Link>
+                        <Link href="#"><a className={styles.banner_btn}>Study Now! Pay Later</a></Link>
                     </div>
                     <div className={styles.content_image}>
                         <Image src={banner_image} alt="banner_img" objectFit="contain" placeholder="blur"/>
@@ -54,7 +54,7 @@ function Banner() {
                             <br/>
                             Start your digital Marketing Journey at <strong>Rs 3,198</strong> per month
                         </p>
-                        <Link href=""><a className={styles.banner_btn}>Study Now! Pay Later</a></Link>
+                        <Link href="#"><a className={styles.banner_btn}>Study Now! Pay Later</a></Link>
                     </div>
                     <div className={styles.content_image}>
                         <Image src={banner_image} alt="banner_img" objectFit="contain"/>

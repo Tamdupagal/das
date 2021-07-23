@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <figure className={styles.logo}>
-                <Image src={logo} width={200} height={100} objectFit="contain"/>
+                <Image src={logo} width={200} height={100} alt="digital aided school" objectFit="contain"/>
             </figure>
             <main className={styles.wrapper}>
                 <p className={styles.text}>We all have thought of providing additonal information to our kids at some point of time.</p>
@@ -66,7 +66,7 @@ function Footer() {
                 <br />
                 <strong>To deliver</strong> important skills and values by using available technology and resources and aid by providing a platform for their growth at a fairly accessible price/cost.
             </p>
-            <p className={styles.footer_text}>
+            <div className={styles.footer_text}>
                 <span>With our Association you will gain</span>
                 <ul>
                     <strong>Ouality Outcome</strong>
@@ -83,7 +83,7 @@ function Footer() {
                     <li>Endless support till Achievement</li>
                     <li>Deadlines</li>
                 </ul>
-            </p>
+            </div>
              <p className={styles.footer_text}>
                 <span>Payment</span>
                 Digital Aided School offers you multiple payment methods. Payment gateway partners use secure encryption technology to keep your transaction details
